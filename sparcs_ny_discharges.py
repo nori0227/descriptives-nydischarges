@@ -59,7 +59,7 @@ sparcs_df1_groupby = ['apr_risk_of_mortality']
 sparcs_df1_table1 = TableOne(sparcs_df1, columns=sparcs_df1_columns,
                              categorical=sparcs_df1_categories, groupby=sparcs_df1_groupby, pval=False)
 print(sparcs_df1_table1.tabulate(tablefmt="fancy_grid"))
-sparcs_df1_table1.to_csv('modified_dataset.csv')
+sparcs_df1_table1.to_csv('Data/modified_dataset.csv')
 
 ##  ResearchOne  ##
 
